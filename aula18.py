@@ -20,13 +20,13 @@ while True :
     operador = input('Digite um operador: ')
     sair = input('Deseja sair ? [s] ou [n]')
 
-    if sair == 's':
-        print('Até logo')
-        break
     if not num1.isnumeric() or not num2.isnumeric():
         print()
         print('Você precisa digitar um número ')
         
+    if sair == 's':
+        print('Até logo')
+        break
 
     num1 = int(num1)
     num2 = int(num2)
