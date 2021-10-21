@@ -12,7 +12,7 @@ while x < 5:
     x+=1
     
 print('Contagem finalizada !')
-
+ 
 while True :
     print()
     num1 = input('Digite um número: ')
@@ -26,7 +26,7 @@ while True :
     if not num1.isnumeric() or not num2.isnumeric():
         print()
         print('Você precisa digitar um número ')
-        continue
+        
 
     num1 = int(num1)
     num2 = int(num2)
