@@ -31,7 +31,7 @@ if 'd'  in nome:
 else: 
     print('não existe')
 '''
-print('\n\n')
+print('\n')
 
 usuario_bd = 'Pedro'
 senha_db = 1234
