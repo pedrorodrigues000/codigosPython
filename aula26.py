@@ -45,3 +45,15 @@ def retorna():
 var = retorna()
 var = ('XXXX')
 print(var)
+
+print()
+
+def args(*args, **kwargs):
+    print(args)
+
+    idade = kwargs ['idade']
+    print(idade)
+
+list1 = [1,2,3,4,5,6]
+list2 = [6,5,4,3,2,1]
+args(*list1, *list2, nome='Pedro', sobrenome='Henrique', idade=20)
